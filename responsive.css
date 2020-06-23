@@ -27,6 +27,7 @@
         margin:0;
         float: right;
         margin-left: auto;
+        font-size: 10px;
     }
 
     .menu a {
@@ -35,8 +36,8 @@
     }
 
     .about-wrapper p {
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 10px;
+        line-height: 10px;
     }
 
 }
