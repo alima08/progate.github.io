@@ -1,129 +1,42 @@
-
-/* Untuk tablet */
 @media (max-width: 1000px) {
-    .heading p {
-        line-height: 10px;
-        font-size: 20px;
-    }
-
-    .konten-wrapper {
-        height: 1800px;
-    }
-
-    .menu-makanan {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .header-kanan {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-
-    .pil-menu {
-        height: 500px;
-        margin-bottom: 5%;
-    }
-
-    .pil-menu p {
-        padding-top: 0px;
-    }
-
-    .desc-menu h2 {
-        margin-top: 10px;
-    }
-
-    .btn {
-        width: 70%;
-    }
-
-    .tmbl-lihat {
-        text-align: center;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-top: 15px;
-    }
-
-    .lihat {
-        font-size: 18px;
-        font-weight: normal;
-    }
-
 
 }
 
-/* untuk hape */
-@media (max-width: 700px) {
+
+@media (max-width: 670px) {
     .header-kanan {
         display: none;
     }
 
-    .menu-icon {
+    .home-wrapper h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .home-wrapper p {
+        font-size: 15px;
+        font-family: Lato, sans-serif;
+        line-height: 17px;
+        font-weight: lighter;
+    }
+    
+    .menu {
         display: block;
+        background-color: rgb(5,8,22);
+        padding-top: 60px;
+        margin:0;
+        float: right;
+        margin-left: auto;
     }
 
-    .heading p {
+    .menu a {
+        margin-right: 20px;
+        color: white;
+    }
+
+    .about-wrapper p {
+        font-size: 16px;
         line-height: 10px;
-        font-size: 20px;
     }
 
-    .konten-wrapper {
-        height: 1800px;
-    }
-
-    .desc-menu {
-        margin: 5px 10px 10px 10px;
-    }
-    
-    .desc-menu p {
-        padding-left: 10px;
-        margin: 0px;
-    }
-    
-    .desc-menu h2 {
-        margin: 15px 0px 7px 0px;
-    }
-
-    .pil-menu h1,h2 {
-        padding-left: 10px;
-    
-    }
-    
-    .pil-menu h1 {
-        padding-left: 10px;
-        font-family: Playfair Display;
-        font-size: 20px;
-        color: rgba(18,20,34,1);
-    }    
-    
-    .pil-menu p {
-        font-family: PT Sans;
-        font-size: 18px;
-        padding-top: 6px;
-    }
-
-    .pil-menu {
-        height: 450px;
-        margin-bottom: 5%;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
-    .tmbl-lihat {
-        text-align: center;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-top: 15px;
-    }
-
-    .lihat {
-        font-size: 20px;
-        font-weight: normal;
-    }
-    
 }
