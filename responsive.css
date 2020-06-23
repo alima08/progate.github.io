@@ -3,7 +3,7 @@
 @media (max-width: 1000px) {
     .heading p {
         line-height: 10px;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .konten-wrapper {
@@ -48,7 +48,7 @@
     }
 
     .lihat {
-        font-size: 13px;
+        font-size: 18px;
         font-weight: normal;
     }
 
@@ -67,7 +67,7 @@
 
     .heading p {
         line-height: 10px;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .konten-wrapper {
@@ -95,13 +95,13 @@
     .pil-menu h1 {
         padding-left: 10px;
         font-family: Playfair Display;
-        font-size: 15px;
+        font-size: 20px;
         color: rgba(18,20,34,1);
     }    
     
     .pil-menu p {
         font-family: PT Sans;
-        font-size: 13px;
+        font-size: 18px;
         padding-top: 6px;
     }
 
@@ -122,7 +122,7 @@
     }
 
     .lihat {
-        font-size: 13px;
+        font-size: 20px;
         font-weight: normal;
     }
     
