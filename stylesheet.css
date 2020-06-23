@@ -1,261 +1,138 @@
-.title {
-    color: #02ccba
-}
-
 * {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+a {
+    text-decoration: none;
 }
 
-.clear {
-    clear: left;
+body {
+    margin: 0;
+    font-family: Playfair Display, serif;
 }
 
 header {
-    width: 100%;
-    height: 60px;
-    background-color: rgba(254,219,177,1);
-    position: fixed;
-    top: 0px;
-    z-index: 10;
+    margin: 0;
+    color: azure;
+}
+.header-kanan {
+    float: right;
+    margin-top: 35px;
 }
 
-header a {
-    font-family: PT Sans, serif;
-    font-size: 15px;
-    color: rgba(18,20,34,1);
-    margin-left: 50px;
+.header-kanan a {
+    margin-left: 65px;
+    color: azure;
+}
+
+.header-kiri {
+    float: left;
 }
 
 .container {
     max-width: 1170px;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 30px;
     margin: 0 auto;
-}
-
-.header-kanan {
-    color: black;
-    font-size: 15px;
-    float: right;
-    font-family: PT Sans, serif;
-    color: rgba(255,255,255,1);
-    padding-top: 10px;
-}
-
-.header-kanan a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: brown;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-  
-  .header-kanan a:hover {
-    background-color: salmon;
-    color: white;
   }
 
-.header-kiri {
-    float: left;
-}       
-
-.logo-header {
-    width: 60px;
-    margin-top: 10px;
-}
-
-.animasi {
-    background-color: rgba(254,219,177,1);
-}
-.top-wrapper {
-    padding: 100px 0 70px 0;
+.home-wrapper {
+    background-image: url('D:\dts 2020\belajar');
+    background-color: rgb(5,8,22);
+    padding-top: 170px;
+    padding-bottom: 200px;
     text-align: center;
-    background-color: rgba(254,219,177,1);
-    background-size: cover;
+    color: azure;
 }
 
-.top-wrapper h1 {
-    font-size: 70px;
-    color: rgba(40,44,106,1);
-    font-family: Playfair Display, serif;
-    margin-bottom: 20px;
+.home-wrapper h1 {
+    font-size: 95px;
+    line-height: 90px;
 }
 
-.top-wrapper p {
+.home-wrapper p {
     font-size: 20px;
-    color: rgba(18,20,34,1);
-    font-family: PT Sans, serif;
-    margin: 0px;
+    font-family: Lato, sans-serif;
+    line-height: 20px;
 }
 
-.kolom-cari {
-    margin-top: 20px;
-    font-family: PT Sans, serif;
-}
-
-input [type=text] {
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    text-align: left;
-    padding: 17px 21px;
-    height: 50px;
-}
-
-.btn {
-    color: white;
-    display: inline-block;
-    border-radius: 30px;
-    font-family: PT Sans, serif;
-    font-stretch: expanded;
-}
-
-.cari {
-    padding: 10px 40px 15px 40px;
-    background-color: rgba(105,8,124,1);
-}
-
-.konten-wrapper {
-    background-color: rgba(254,219,177,1);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 80px;
-    text-align: left;
-    height: 1000px;
-    margin: 0;
-}
-
-.pil-menu {
-    width: 330px;
-    height: 580px;
-    background-color: white;
-    border-radius: 11px;
-    float: left;
-    margin-right: 20px;
-}
-
-.logo-menu {
-    width: 330px;
-    height: 218px;
-}
-
-.pil-menu h1,h2 {
-    padding-left: 20px;
-
-}
-
-.pil-menu h1 {
-    padding-left: 20px;
-    font-family: Playfair Display, serif;
-    font-size: 30px;
-    color: rgba(18,20,34,1);
-}
-
-
-.pil-menu p {
-    font-family: PT Sans, serif;
-    font-size: 17px;
-    padding-top: 6px;
-}
-
-.lihat {
-    padding: 8px 40px 10px 40px;
-    background-color: rgba(105,8,124,1);
-    font-size: 19px;
-    font-weight: bold;
-}
-
-.tmbl-lihat {
-    text-align: right;
-    padding-right: 30px;
-    margin-top: 50px;
-}
-
-.desc-menu {
-    margin: 10px 20px 30px 20px;
-}
-
-.desc-menu p {
-    padding-left: 20px;
-    margin: 0px;
-}
-
-.desc-menu h2 {
-    margin: 21px 0px 7px 0px;
-}
-
-.heading {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: rgba(18,20,34,1);
-    text-align: center;
-}
-
-.heading h1 {
-    font-size: 40px;
-    color:  rgba(40,44,106,1);
-    font-family: Playfair Display, serif;
-}
-
-.bottom-wrapper {
-    text-align: center;
-    padding-bottom: 50px;
-    background-color: rgba(254,219,177,1);
-    margin: 0;
-}
-
-.bottom-wrapper p {
-    font-size: 17px;
-    line-height: 10px;
-    font-family: PT Sans, serif;
-}
-.tambah {
-    background-color: rgba(105,8,124,1);
-    padding: 15px 40px;
-    cursor: pointer;
-    box-shadow: 0 7px rgba(191, 96,159,1);
-}
-
-.btn:hover {
-    opacity: 0.7;
-}
-
-footer {
-    text-align: center;
-    font-family: PT Sans;
-    background-color:  rgba(105,8,124,1);
-    color: white;
-}
-
-footer p {
-    padding: 20px 0px 20px 0px;
-}
-
-.header-kanan li {
-    float: left;
-}
-
-.menu-icon {
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color:  rgba(254,219,177,1);
-    text-align: center;
+.menu {
     display: none;
 }
 
-li {
-    display: inline-block;
-}
-li a {
-    display: block;
+.heading {
+    font-size: 50px;
+    color:  rgb(5,8,22);
+    padding-bottom: 25px;
 }
 
-li a:hover {
-    color: #02ccba;
+.about-wrapper {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-wrapper p {
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    line-height: 20px;
+}
+
+.contact-wrapper {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(5,8,22);
+}
+
+.cp {
+    color: azure;
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.kontak-saya {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    flex-basis: 50%;
+}
+
+.kontak {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.btn-kontak {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 8px 70px 10px 70px;
+    display: inline-block;
+    border-radius: 31px;
+    opacity: 1;
+    background-color: rgba(75, 212, 255, 1) ;
+    color: rgb(5,8,22);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-kontak:hover {
+    opacity: 0.6;
+    background-attachment: rgba(255,255,255,0.5);
+    color: white;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(75, 212, 255, 1) ;
 }
