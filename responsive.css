@@ -1,0 +1,104 @@
+
+/* Untuk tablet */
+@media (max-width: 1000px) {
+    .heading p {
+        line-height: 10px;
+        font-size: 14px;
+    }
+
+    .konten-wrapper {
+        height: 1800px;
+    }
+
+    .menu-makanan {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .header-kanan {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .pil-menu {
+        height: 500px;
+        margin-bottom: 5%;
+    }
+
+    .pil-menu p {
+        padding-top: 0px;
+    }
+
+    .desc-menu h2 {
+        margin-top: 10px;
+    }
+
+    .tmbl-lihat {
+        margin-top: 16px;
+    }
+
+}
+
+/* untuk hape */
+@media (max-width: 670px) {
+    .header-kanan {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .heading p {
+        line-height: 10px;
+        font-size: 14px;
+    }
+
+    .konten-wrapper {
+        height: 1800px;
+    }
+
+    .desc-menu {
+        margin: 5px 10px 10px 10px;
+    }
+    
+    .desc-menu p {
+        padding-left: 10px;
+        margin: 0px;
+    }
+    
+    .desc-menu h2 {
+        margin: 15px 0px 7px 0px;
+    }
+
+    .pil-menu h1,h2 {
+        padding-left: 10px;
+    
+    }
+    
+    .pil-menu h1 {
+        padding-left: 10px;
+        font-family: Playfair Display;
+        font-size: 15px;
+        color: rgba(18,20,34,1);
+    }    
+    
+    .pil-menu p {
+        font-family: PT Sans;
+        font-size: 13px;
+        padding-top: 6px;
+    }
+
+    .pil-menu {
+        height: 450px;
+        margin-bottom: 5%;
+    }
+
+    .tmbl-lihat {
+        margin-top: 5px;
+    }
+    
+}
