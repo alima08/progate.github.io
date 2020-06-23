@@ -1,137 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <meta charset="utf-8" />
-    <title>Kuliner Indonesia</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Introduce</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    </head>
 
-<style>
-    .animasi {
-        width: 100px;
-        height: 20px;
-        background-color: aquamarine;
-        position: relative;
-        animation-name: example;
-        animation-duration: 10s;
-        animation-delay: 2s;
-        margin-top: 30px;
-    }
+    <style>
+            .animasi {
+                width: 100px;
+                height: 20px;
+                background-color: rgb(5,8,22);
+                position: relative;
+                animation-name: example;
+                animation-duration: 10s;
+                animation-delay: 2s;
+                margin-top: 30px;
+            }
+        
+            @keyframes example {
+                0% {background-color: rgb(5,8,22);left: 0px; top: 0px;}
+                25% {background-color: bisque; left: 50%px; top: 0px;}
+                50% {background-color: rgb(5,8,22); left: 80%; top: 0px;}
+                100% {background-color: bisque; left: 0px; top: 0px;}
+            }
+        </style>
 
-    @keyframes example {
-        0% {background-color: aqua; left: 0px; top: 0px;}
-        25% {background-color: bisque; left: 50%px; top: 0px;}
-        50% {background-color: rgb(45, 165, 165); left: 70%; top: 0px;}
-        100% {background-color: bisque; left: 0px; top: 0px;}
-    }
-</style>
-
-
-<body>
-    <header>
-        <div class="container">
-            <div class="header-kiri">
-                <img src="C:\Users\ASUS\Desktop\html_lesson\contoh-logo.png" class="logo-header">
-            </div>
-            <span class="fa fa-bars menu-icon"></span>
-            <div class="header-kanan">
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#" >Tentang Kami</a>
-            </div>
-        </div>
-    </header>
-
-    <div class="top-wrapper">
-        <div class="container">
-            <h1>Kuliner Indonesia</h1>
-            <p>Ingin mencari makanan daerah khas Indonesia?</p>
-            <p>Dapatkan hanya dengan mengetikkan di bawah ini</p>
-            <div class="kolom-cari">
-                <a href="#" class="btn cari">Cari Menu Sekarang</a>
-            </div>
-        </div>
-
-        <div class="animasi">
-            </div>
-    </div>
-
-    
-
-    <div class="konten-wrapper">
-        <div class="container">
-            <div class="heading">
-                <h1>Menu Pilihan Pengunjung</h1>
-            </div>
-            <div class="menu-makanan">
-                <div class="pil-menu">
-                    <div class="foto-menu">
-                        <img src="https://drive.google.com/file/d/1UoSAfdQie2E9S_ufcUlLSSonFubarylV/view?usp=sharing" class="logo-menu">
-                    </div>
-                    <div class="desc-menu">
-                        <h1>Sate Ayam</h1>
-                        <p>Sate Ayam Pak No Jogja</p>
-                        <p>Jalan Pahlawan No 15, Yogyakarta</p>
-                        <h2>Rp 15.000,00</h2>
-                        <p>Harga satu porsi normal</p>
-                        <div class="tmbl-lihat">
-                            <a href="#" class="btn lihat">Lihat</a>
-                        </div>
-                    </div>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-kiri">
+                    <h1>Our Page</h1>
                 </div>
 
-                <div class="pil-menu">
-                        <div class="foto-menu">
-                            <img src="C:\Users\ASUS\Desktop\html_lesson\uduk.png" class="logo-menu">
-                        </div>
-                        <div class="desc-menu">
-                            <h1>Nasi Uduk</h1>
-                            <p>Nasi Uduk Selamat Pagi</p>
-                            <p>Jalan Pegangsaan Timur No 16</p>
-                            <h2>Rp 8.000,00</h2>
-                            <p>Harga satu porsi normal</p>
-                        </div>
-                        <div class="tmbl-lihat">
-                            <a href="#" class="btn lihat">Lihat</a>
-                        </div>
-                    </div>
+                <div class="menu">
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Any Suggestion</a>
+                </div>
 
-                    <div class="pil-menu">
-                        <div class="foto-menu">
-                            <img src="C:\Users\ASUS\Desktop\html_lesson\ayam.png" class="logo-menu">
-                        </div>
-                        <div class="desc-menu">
-                            <h1>Mie Ayam</h1>
-                            <p>Mi Mangkoknya Bisa Dimakan</p>
-                            <p>Jalan Ir Soekarno No 55, Yogyakarta</p>
-                            <h2>Rp 10.000,00</h2>
-                            <p>Harga satu porsi normal</p>
-                            <div class="tmbl-lihat">
-                                <a href="#" class="btn lihat">Lihat</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="header-kanan">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Any Suggestion</a>
+                </div>
+
+                
+            </div>
+        </header>
+
+        <div class="home-wrapper">
+            <div class="container">
+                <h1>Kelompok A Satu</h1>
+                <p>Let me introduce our self as newbie html css learned student based on Indonesia</p>
+                <p>Come and see our latest work</p>
+                <div class="animasi"></div>
             </div>
         </div>
-    </div>
 
-    <div class="bottom-wrapper">
-        <div class="container">
-            <div class="heading">
-                <p>Punya menu makanan daerah lainnya?</p>
-                <p>Kirim masukan kamu di sini!</p>
+        <div class="about-wrapper">
+            <div class="container">
+                <div class="heading">About Us</div>
+                <p>We are have same first name initial, it is `A`</p>
+                <p>Then, our name is gathered at one group</p>
+                <p>It named A1, or if you spell it, it will become like you say 'AWAN'</p>
             </div>
-            <span class="btn tambah">Tambah</span>
         </div>
-    </div>
 
-    <footer>
-        <div class="container">
-            <p>Selamat menikmati dan sampai berjumpa lagi!</p>
+        <div class="contact-wrapper">
+            <div class="container">
+                <div class="heading cp">Suggestion for us</div>
+                <div class="kontak-saya flex">
+                    <input type="text" placeholder="name..." class="kontak">
+                    <input type="text" placeholder="email..." class="kontak">
+                    <input type="text" placeholder="your message..." class="kontak">
+                </div>
+                <a href="#" class="btn-kontak">Send</a>
+            </div>
         </div>
-    </footer>
-</body>
+        
+        <footer>Find us at `Kelompok A Satu`</footer>
+    </body>
 </html>
