@@ -25,7 +25,7 @@ header {
 }
 
 header a {
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
     font-size: 15px;
     color: rgba(18,20,34,1);
     margin-left: 50px;
@@ -42,10 +42,24 @@ header a {
     color: black;
     font-size: 15px;
     float: right;
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
     color: rgba(255,255,255,1);
     padding-top: 10px;
 }
+
+.header-kanan a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: brown;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-kanan a:hover {
+    background-color: salmon;
+    color: white;
+  }
 
 .header-kiri {
     float: left;
@@ -69,20 +83,20 @@ header a {
 .top-wrapper h1 {
     font-size: 70px;
     color: rgba(40,44,106,1);
-    font-family: Playfair Display;
+    font-family: Playfair Display, serif;
     margin-bottom: 20px;
 }
 
 .top-wrapper p {
     font-size: 20px;
     color: rgba(18,20,34,1);
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
     margin: 0px;
 }
 
 .kolom-cari {
     margin-top: 20px;
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
 }
 
 input [type=text] {
@@ -97,7 +111,7 @@ input [type=text] {
     color: white;
     display: inline-block;
     border-radius: 30px;
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
     font-stretch: expanded;
 }
 
@@ -137,14 +151,14 @@ input [type=text] {
 
 .pil-menu h1 {
     padding-left: 20px;
-    font-family: Playfair Display;
+    font-family: Playfair Display, serif;
     font-size: 30px;
     color: rgba(18,20,34,1);
 }
 
 
 .pil-menu p {
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
     font-size: 17px;
     padding-top: 6px;
 }
@@ -185,7 +199,7 @@ input [type=text] {
 .heading h1 {
     font-size: 40px;
     color:  rgba(40,44,106,1);
-    font-family: Playfair Display;
+    font-family: Playfair Display, serif;
 }
 
 .bottom-wrapper {
@@ -198,7 +212,7 @@ input [type=text] {
 .bottom-wrapper p {
     font-size: 17px;
     line-height: 10px;
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
 }
 .tambah {
     background-color: rgba(105,8,124,1);
@@ -230,8 +244,9 @@ footer p {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: royalblue;
+    background-color:  rgba(254,219,177,1);
     text-align: center;
+    display: none;
 }
 
 li {
