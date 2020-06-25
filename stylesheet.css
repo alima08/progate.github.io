@@ -40,7 +40,7 @@ header {
     background-image: url('D:\dts 2020\belajar');
     background-color: rgb(5,8,22);
     padding-top: 170px;
-    padding-bottom: 200px;
+    padding-bottom: 170px;
     text-align: center;
     color: azure;
 }
@@ -53,7 +53,9 @@ header {
 .home-wrapper p {
     font-size: 20px;
     font-family: Lato, sans-serif;
-    line-height: 20px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .menu {
@@ -69,9 +71,11 @@ header {
 .about-wrapper {
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
+.about-wrapper h1 {
+    font-size: 50px;
+}
 .about-wrapper p {
     font-size: 20px;
     font-family: Lato, sans-serif;
@@ -83,6 +87,11 @@ header {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: rgb(5,8,22);
+}
+
+.contact-wrapper h1 {
+    color: white;
+    font-size: 50px;
 }
 
 .cp {
@@ -116,7 +125,7 @@ header {
     display: inline-block;
     border-radius: 31px;
     opacity: 1;
-    background-color: rgba(75, 212, 255, 1) ;
+    background-color: rgba(82, 194, 214, 1) ;
     color: rgb(5,8,22);
     text-align: center;
     margin-top: 20px;
@@ -134,5 +143,65 @@ footer {
     font-size: 14px;
     text-align: center;
     font-weight: bold;
-    background-color: rgba(75, 212, 255, 1) ;
+    background-color: rgba(82, 194, 214, 1) ;
+}
+
+.btn-profile {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    padding: 8px 50px 10px 50px;
+    display: inline-block;
+    border-radius: 40px;
+    opacity: 1;
+    background-color: rgba(82, 194, 214, 1) ;
+    color: rgb(5,8,22);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-profile:hover {
+    opacity: 0.6;
+    background-attachment: rgba(255,255,255,0.5);
+    color:white;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 30px 50px 90px 50px;
+    text-align: center;
+}
+
+li {
+    color: rgb(5,8,22);
+    height: 50px;
+    line-height: 50px;
+}
+
+.li1 {
+    background-color: #FFB8F8;
+}
+
+.li2 {
+    background-color: #B2DEFF;
+}
+
+.li3 {
+    background-color: #FFB2B2;
+}
+
+.li4 {
+    background-color: #CFFFE9;
+}
+
+.li5 {
+    background-color: #FDE3AE;
+}
+
+.flex-list {
+    display: flex;
+}
+
+.flex-list li {
+    flex: auto;
 }
